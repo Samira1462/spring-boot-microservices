@@ -1,4 +1,4 @@
-package org.codechallenge.catalogservice;
+package org.codechallenge.bookstore;
 
 import org.springframework.boot.SpringApplication;
 

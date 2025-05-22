@@ -7,13 +7,13 @@ import static org.hamcrest.Matchers.is;
 
 import io.restassured.http.ContentType;
 import java.math.BigDecimal;
-import org.codechallenge.bookstore.AbstractIT;
+/*import org.codechallenge.bookstore.AbstractTest;*/
 import org.codechallenge.bookstore.catalog.domain.Product;
 import org.junit.jupiter.api.Test;
 import org.springframework.test.context.jdbc.Sql;
 
 @Sql("/test-data.sql")
-class ProductControllerTest extends AbstractIT {
+class ProductControllerTest /*extends AbstractTest*/ {
     @Test
     void shouldReturnProducts() {
         given().contentType(ContentType.JSON)

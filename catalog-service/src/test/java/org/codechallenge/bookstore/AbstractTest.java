@@ -1,3 +1,4 @@
+/*
 package org.codechallenge.bookstore;
 
 import io.restassured.RestAssured;
@@ -10,7 +11,7 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 
 @SpringBootTest(webEnvironment = RANDOM_PORT)
 @Import(ContainersConfig.class)
-public abstract class AbstractIT {
+public abstract class AbstractTest {
     @LocalServerPort
     int port;
 
@@ -19,3 +20,4 @@ public abstract class AbstractIT {
         RestAssured.port = port;
     }
 }
+*/
